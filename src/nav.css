@@ -1,0 +1,158 @@
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06) ;
+    border: 1px solid black;
+   
+   
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+  
+    margin-right: 40px;
+    
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+padding: auto;
+font-family: sans-serif;
+}
+
+
+
+.cap a {
+  
+    margin: 10px 15px;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+.cap {
+    margin-top: 10px;
+
+}
+
+.kip {
+
+    background-size: cover;
+    height: 100vh;
+}
+
+.content {
+    font-size: 20px;
+    margin-top: 15%;
+    max-width: 600px;
+}
+
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    color: #85929E;
+}
+
+span {
+    color: #338AFF;
+}
+
+
+/*...................................*/
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    height: 75vh;
+    
+}
+p{
+   
+    font-size: 30px;
+    
+    width: 40rem;
+}
+
+.down{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 15vh;
+}
+.down h2{
+    color: aliceblue;
+}
+
+button{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #338AFF;
+    border: none;
+    font-size: 20px;
+    color: aliceblue;
+    font: bold;
+}
+
+
+
+.man{
+    height: 70vh;
+   
+  
+
+}
+.row{
+    display: flex;
+    width: 60rem;
+    margin-left: 20%;
+    
+}
+.col{
+    margin: 10px;
+    background-color: black;
+    color: aliceblue;
+    line-height: 50px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+h2{
+    margin: 30px;
+    font-size: 30px;
+}
+
+
+footer{
+    height: 30vh;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
